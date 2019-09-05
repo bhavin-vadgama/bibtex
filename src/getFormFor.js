@@ -41,7 +41,7 @@ function getFormFieldsCode(fields, required) {
 		    // </div>
     		fieldCode += "\t<div class='form-group'>\n";
     		fieldCode += "\t\t<label for='" + field +"'>" + field + ":</label>\n";
-    		fieldCode += "\t\t<input type='text' class='form-control' id='" + field + "' placeholder='Enter " + field + "' name='" + field + "' required='" + required +"'>\n";
+		fieldCode += "\t\t<input type='text' class='form-control' id='" + field + "' placeholder='Enter " + field + "' name='" + field + "' " + (required? "required" : "")+">\n";
     		fieldCode += "\t</div>\n";
     }
 
