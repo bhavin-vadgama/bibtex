@@ -23,7 +23,7 @@ module.exports = function getEntryTypeFieldsDescription() {
     "book": {
         "description": "A book with an explicit publisher",
         "requiredFields": [
-            "author or editor",
+            "author",
             "title",
             "publisher",
             "year"
