@@ -9,7 +9,7 @@ module.exports = function getEntryTypeFields() {
 			"optionalFields": ["volume", "number", "pages", "month", "note"]
 		},
 		"book": {
-			"requiredFields": ["author or editor", "title", "publisher", "year"],
+			"requiredFields": ["author", "title", "publisher", "year"],
 			"optionalFields": ["volume", "series", "address", "edition", "month", "note"]
 		},
 		"booklet": {
